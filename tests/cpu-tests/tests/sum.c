@@ -1,3 +1,4 @@
+//passed
 #include "trap.h"
 
 int main() {

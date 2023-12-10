@@ -1,3 +1,4 @@
+//passed
 #include "trap.h"
 
 volatile int A[10];
