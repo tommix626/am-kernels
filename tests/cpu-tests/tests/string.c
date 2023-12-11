@@ -6,6 +6,7 @@ char *s[] = {
 	"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
 	", World!\n",
 	"Hello, World!\n",
+	"#####",
 	"#####"
 };
 
@@ -21,6 +22,7 @@ int main() {
 
 	check(strcmp( strcat(strcpy(str, str1), s[3]), s[4]) == 0);
 
+	check(memcmp(s[6], s[5], 5) == 0);
 	check(memcmp(memset(str, '#', 5), s[5], 5) == 0);
 
 	return 0;
