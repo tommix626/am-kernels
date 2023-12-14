@@ -28,7 +28,7 @@ int main(const char *args) {
     CASE('p', vm_test, CTE(vm_handler), VME(simple_pgalloc, simple_pgfree));
     case 'H':
     default:
-      printf("Usage: make run mainargs=*\n");
+      printf("Usage: make rusn mainargs=*\n");
       for (int ch = 0; ch < 256; ch++) {
         if (tests[ch]) {
           printf("  %c: %s\n", ch, tests[ch]);
