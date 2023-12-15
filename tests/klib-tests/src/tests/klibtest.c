@@ -15,7 +15,7 @@ void reset() {
 // data[l,r) =?= val, val + 1, val + 2...
 void check_seq(int l, int   r, int val) {
   int i;
-  for (i = l; i < r; i ++) {
+  for (i = l; i < r; i ++) { 
     // putch(data[i]);putch(val+i-l);putch('\n'); //debug
     assert(data[i] == val + i - l);
   }
