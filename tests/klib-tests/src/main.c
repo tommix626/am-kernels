@@ -16,6 +16,7 @@ int main(const char *args) {
     CASE('t', test_test_setup);
     CASE('s', test_suite_string);
     CASE('p', test_suite_printf);
+    CASE('P', test_printf_min);
     case 'H':
     default:
       printf("Usage: make run mainargs=*\n");
