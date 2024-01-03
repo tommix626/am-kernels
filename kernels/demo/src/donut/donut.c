@@ -77,6 +77,6 @@ void donut(void) {
     R(5, 8, cB, sB);
     
     screen_refresh();
-    usleep(100000);
+    usleep(500000);
   }
 }
